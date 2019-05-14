@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_buttons_add">90dp</dimen>
+    <dimen name="progressbar_width">300dp</dimen>
+    <dimen name="entrenamientodetalle_title_marginleft">150dp</dimen>
+    <dimen name="entrenamientodetalle_fav_marginleft">200dp</dimen>
+    <dimen name="entrenamientodetalle_fav_width">0dp</dimen>
+    <dimen name="entrenamientodetalle_foto_heigth">180dp</dimen>
+    <dimen name="entrenamientodetalle_scroll_margin">15dp</dimen>
+    <dimen name="login_facebutton_marginTop">750dp</dimen>
+    <dimen name="login_facebutton_marginLeft">140dp</dimen>
+    <dimen name="nuevadieta_linear_marginTop">25dp</dimen>
+    <dimen name="nuevadieta_texview_width">100dp</dimen>
+    <dimen name="nuevadieta_texview_textsize">18sp</dimen>
+    <dimen name="nuevadieta_btncrear_marginTop">60dp</dimen>
+    <dimen name="splash_textview_marginLeft">120dp</dimen>
+    <dimen name="splash_textview_marginTop">620dp</dimen>
+    <dimen name="splash_textview_size">30sp</dimen>
+    <dimen name="splash_pg_width">100dp</dimen>
+    <dimen name="splash_pg_marginLeft">150dp</dimen>
+    <dimen name="splash_pg_marginTop">670dp</dimen>
+    <dimen name="fragEntrenamientos_grid_columnwidth">120dp</dimen>
+
+    <dimen name="fragMenu_title_size">30sp</dimen>
+    <dimen name="fragMenu_title_paddingLeft">150dp</dimen>
+    <dimen name="fragMenu_item_size">23sp</dimen>
+    <dimen name="fragMenu_item_paddingLeft">130dp</dimen>
+    <dimen name="fragMenu_ibtn_height">160dp</dimen>
+
+
+
+
+
+</resources>

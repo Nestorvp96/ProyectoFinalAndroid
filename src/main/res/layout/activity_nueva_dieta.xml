@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_marginLeft="65dp"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_proteinas"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:text="@string/nuevadieta_prote"
+            />
+
+        <EditText
+            android:id="@+id/etproteinas"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:id="@+id/tv_nutricion_carbos"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_carbos"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/etcarbos"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_Frutas"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_frutas"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <EditText
+            android:id="@+id/etfrutas"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_verduras"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_verdura"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <EditText
+            android:id="@+id/etverduras"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_leguminosas"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_leguminosa"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <EditText
+            android:id="@+id/etleguminosas"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_lacteos"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_lacteos"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <EditText
+            android:id="@+id/etlacteos"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/n_btncrear"
+        android:layout_marginTop="@dimen/nuevadieta_btncrear_marginTop"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nuevadieta_btncrear"
+        />
+
+
+</LinearLayout>

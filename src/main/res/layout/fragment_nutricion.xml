@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+        android:id="@+id/tv_nutricion_proteinas"
+        android:layout_width="@dimen/nuevadieta_texview_width"
+        android:layout_height="wrap_content"
+        android:text="@string/nuevadieta_prote"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+        />
+
+        <TextView
+            android:id="@+id/tv_nutricion_proteinas_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:scrollbarSize="@dimen/nuevadieta_texview_textsize"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/pgProte"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progressbar_width"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_proteinas_restantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_buttons_add"
+        >
+
+        <Button
+            android:id="@+id/btn_mas_proteina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_plus" />
+
+
+        <Button
+            android:id="@+id/btn_menos_proteina"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_less" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:id="@+id/tv_nutricion_carbos"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_carbos"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_carbos_totales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/pgCarbos"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progressbar_width"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_carbos_restantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_buttons_add"
+        >
+
+
+        <Button
+            android:id="@+id/btn_mas_carbos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_plus" />
+
+
+        <Button
+            android:id="@+id/btn_menos_carbos"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_less" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_Frutas"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_frutas"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_frutas_totales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/pgFrutas"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progressbar_width"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_frutas_restantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_buttons_add"
+        >
+
+
+        <Button
+            android:id="@+id/btn_mas_frutas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_plus" />
+
+
+        <Button
+            android:id="@+id/btn_menos_frutas"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_less" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_verduras"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_verdura"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_verduras_totales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/pgVerduras"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progressbar_width"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_nutricion_verduras_restantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_buttons_add"
+        >
+
+
+        <Button
+            android:id="@+id/btn_mas_verduras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_plus" />
+
+
+        <Button
+            android:id="@+id/btn_menos_verduras"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_less" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_leguminosas"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_leguminosa"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_leguminosas_totales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/pgLeg"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progressbar_width"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_leguminosas_restantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_buttons_add"
+        >
+
+        <Button
+            android:id="@+id/btn_mas_leguminosas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_plus" />
+
+
+
+        <Button
+            android:id="@+id/btn_menos_leguminosas"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_less" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_nutricion_lacteos"
+            android:layout_width="@dimen/nuevadieta_texview_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_lacteos"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_lacteos_totales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/pgLact"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progressbar_width"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nutricion_lacteos_restantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nuevadieta_texview_textsize"
+            android:paddingRight="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_buttons_add"
+        >
+
+        <Button
+            android:id="@+id/btn_mas_lacteos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_plus" />
+
+        <Button
+            android:id="@+id/btn_menos_lacteos"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragNutricion_less" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/nuevadieta_linear_marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnguardar"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_btnguardar"
+            />
+
+        <Button
+            android:id="@+id/btnnueva"
+            android:layout_marginLeft="170dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nuevadieta_btnnueva"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

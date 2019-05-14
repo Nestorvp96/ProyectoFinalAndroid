@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_MainMenu"
+            android:icon="@drawable/menu"
+            android:title="@string/drawer_menu"></item>
+
+        <item
+            android:id="@+id/nav_Favoritos"
+            android:icon="@drawable/starmenu"
+            android:title="@string/drawer_favoritos"></item>
+
+        <item
+            android:id="@+id/nav_Entrenamientos"
+            android:icon="@drawable/dumbbell"
+            android:title="@string/drawer_entrenamientos"></item>
+
+        <item
+            android:id="@+id/nav_Nutricion"
+            android:icon="@drawable/apple"
+            android:title="@string/drawer_nutri"></item>
+
+    </group>
+
+    <item android:title="@string/drawer_otros">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/logout"
+                android:title="@string/drawer_logout"></item>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

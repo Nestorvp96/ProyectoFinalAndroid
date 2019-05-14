@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splashscreen" />
+
+    <TextView
+        android:layout_marginLeft="@dimen/splash_textview_marginLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_message"
+        android:textColor="#F6F7F8"
+        android:textSize="@dimen/splash_textview_size"
+        android:layout_marginTop="@dimen/splash_textview_marginTop"
+        />
+
+    <ProgressBar
+        android:layout_width="@dimen/splash_pg_width"
+        android:layout_height="@dimen/splash_pg_width"
+        android:layout_marginLeft="@dimen/splash_textview_marginLeft"
+        android:layout_marginTop="@dimen/splash_pg_marginTop"
+        />
+
+</RelativeLayout>

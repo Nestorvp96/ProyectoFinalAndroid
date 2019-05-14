@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+
+
+    <TextView
+    android:id="@+id/tv_menu_entrenamientos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/fragMenu_entrenamientos"
+    android:textSize="@dimen/fragMenu_item_size"
+    android:paddingLeft="@dimen/fragMenu_item_paddingLeft"
+    android:textColor="#FFFFFF"
+    />
+
+    <ImageButton
+        android:id="@+id/iv_menu_entrenamientos"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragMenu_ibtn_height"
+        android:layout_below="@id/tv_menu_entrenamientos"
+        android:src="@drawable/workout" /> <!-- -->
+
+    <TextView
+        android:id="@+id/tv_menu_nutricion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragMenu_nutricion"
+        android:textSize="@dimen/fragMenu_item_size"
+        android:paddingLeft="@dimen/fragMenu_item_paddingLeft"
+        android:layout_below="@id/iv_menu_entrenamientos"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageButton
+        android:id="@+id/iv_menu_nutricion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragMenu_ibtn_height"
+        android:layout_below="@id/tv_menu_nutricion"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:src="@drawable/botonnutricion"
+        />
+
+        <!-- -->
+
+
+    <TextView
+        android:id="@+id/tv_menu_favoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragMenu_favoritos"
+        android:textSize="@dimen/fragMenu_item_size"
+        android:paddingLeft="@dimen/fragMenu_item_paddingLeft"
+        android:layout_below="@id/iv_menu_nutricion"
+        android:textColor="#FFFFFF"
+        />
+
+    <ImageButton
+        android:id="@+id/iv_menu_favoritos"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragMenu_ibtn_height"
+        android:layout_below="@id/tv_menu_favoritos"
+        android:src="@drawable/botonfavoritos"
+        /> <!---->
+
+</RelativeLayout>

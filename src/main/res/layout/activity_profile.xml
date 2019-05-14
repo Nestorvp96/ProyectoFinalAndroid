@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:loginView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/profile_logo_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/com_facebook_button_icon_white"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/app_name"/>
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profile_pic"
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="35dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="35dp"
+        android:gravity="center"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/profile_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="35dp"
+        android:layout_margin="15dp"
+        style="@style/com_facebook_loginview_default_style" />
+</LinearLayout>
